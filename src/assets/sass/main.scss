@@ -1,8 +1,26 @@
-$top: 10px;
+/* Import Styles */
+// Global
+@import "includes/base/_ie.scss";
+@import "includes/base/_print.scss";
+@import "includes/base/_screen.scss";
+@import "includes/base/_normalise.scss";
 
-body{
-	background:#fff;
-	height: 10px;
-	width: $top;
-	height: 11px;
-}
+// Global
+@import "includes/global/_variables.scss";
+@import "includes/global/_mixins.scss";
+// @import "includes/global/_type.scss";
+@import "includes/global/_global.scss";
+@import "includes/global/_grid.scss";
+
+// @import "includes/global/_slick.scss";
+// @import "includes/global/_slick-theme.scss";
+
+// Components 
+// @import "includes/components/_navigation.scss";
+// @import "includes/components/_footer.scss";
+// @import "includes/components/_header.scss";
+// @import "includes/components/_home.scss";
+// @import "includes/components/_page.scss";
+
+
+// @import "includes/components/_temp.scss";

@@ -1,0 +1,28 @@
+//Media break points
+$tablet: 1024px;
+$mobile: 740px;
+$small-mobile: 440px;
+
+$grid-medium: 992px;
+$grid-small: 600px;
+
+//Colours
+$green: #00FFDE;
+$black: #101010;
+$grey: #969696;
+$light-grey: #F3F3F9;
+$dark-green: #18F0D4;
+$blue: #222438;
+
+$image-path: '/sites/all/themes/wmw/images';
+
+//Functions
+@function image-path($image-path){
+  @return $image-path;
+}
+
+//fonts 
+$font-base: 'AkzidenzGroteskBE-Regular', sans-serif;
+$font-bold: 'AkzidenzGroteskBE-BoldCn', sans-serif;
+$font-karmoon: 'sofia-pro-black', arial, sans-serif;
+$font-karmoon-light: 'sofia-pro-bold', arial, sans-serif;

@@ -1,0 +1,171 @@
+@font-face {
+  font-family: 'sofia-pro-black';
+  src: url('../fonts/sofia-pro-black.eot');
+  src: local('☺'), url('../fonts/sofia-pro-black.woff') format('woff'), 
+    url('../fonts/sofia-pro-black.ttf') format('truetype'), 
+    url('../fonts/sofia-pro-black.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sofia-pro-bold';
+  src: url('../fonts/sofia-pro-bold.eot');
+  src: local('☺'), url('../fonts/sofia-pro-bold.woff') format('woff'), 
+    url('../fonts/sofia-pro-bold.ttf') format('truetype'), 
+    url('../fonts/sofia-pro-bold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sofia-pro-regular';
+  src: url('../fonts/sofia-pro-regular.eot');
+  src: local('☺'), url('../fonts/sofia-pro-regular.woff') format('woff'), 
+    url('../fonts/sofia-pro-regular.ttf') format('truetype'), 
+    url('../fonts/sofia-pro-regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'AkzidenzGroteskBE-BoldCn';
+  src: url('../fonts/AkzidenzGroteskBE-BoldCn.eot?#iefix') format('embedded-opentype'),  url('AkzidenzGroteskBE-BoldCn.otf')  format('opentype'),
+       url('../fonts/AkzidenzGroteskBE-BoldCn.woff') format('woff'), url('../fonts/AkzidenzGroteskBE-BoldCn.ttf')  format('truetype'), url('../fonts/AkzidenzGroteskBE-BoldCn.svg#AkzidenzGroteskBE-BoldCn') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AkzidenzGroteskBE-Regular';
+  src: url('../fonts/AkzidenzGroteskBE-Regular.eot?#iefix') format('embedded-opentype'),  url('AkzidenzGroteskBE-Regular.otf')  format('opentype'),
+       url('../fonts/AkzidenzGroteskBE-Regular.woff') format('woff'), url('../fonts/AkzidenzGroteskBE-Regular.ttf')  format('truetype'), url('../fonts/AkzidenzGroteskBE-Regular.svg#AkzidenzGroteskBE-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+// font-family: 'Source Sans Pro', sans-serif;
+
+//fonts
+// $font-one: 'sofia-pro-black', arial,  sans-serif;
+// $font-two: 'sofia-pro-bold', arial, sans-serif;
+// $font-three: 'sofia-pro-regular', arial, sans-serif;
+// Sailec-Regular,Sailec,Helvetica Neue,Helvetica,Arial,sans-serif
+
+// $font-base: 'Source Sans Pro', sans-serif;
+$font-base: 'AkzidenzGroteskBE-Regular', sans-serif;
+$font-bold: 'AkzidenzGroteskBE-BoldCn', sans-serif;
+$font-karmoon: 'sofia-pro-black', arial, sans-serif;
+$font-karmoon-light: 'sofia-pro-bold', arial, sans-serif;
+
+
+/* Type */
+body, *{
+  font-family: $font-base;
+  font-weight: 400;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+
+  line-height: 1;
+  letter-spacing: 0;
+
+  color: $black;
+}
+
+h1, .h1{
+  font-family: $font-bold;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin:0 0 15px 0;
+}
+
+h2, .h2{
+  font-family: $font-bold;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+}
+.h2-subtitle{
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  width: 100%;
+  color: #9a9a9a; 
+}
+
+
+h3{
+  // font-family: $font-one;
+  font-size: 17px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin:0 0 15px 0;
+  color: #262626;
+}
+html, body, p, blockquote{
+  font-size: 13px;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+
+p, blockquote{
+  line-height: 1.7;
+  margin:0 0 10px 0;
+}
+a{
+  text-decoration: none;
+  color: #262626;
+}
+
+
+
+.rte{
+  img{
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  h1{
+    // font-family: $font-karmoon;
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    margin: 70px 0 15px;
+  }
+  h2{
+    // font-family: $font-karmoon;
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    margin: 50px 0 15px;
+  }
+  h3{
+    // font-family: $font-karmoon;
+    font-weight: 800;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    margin: 50px 0 15px;
+  }
+  p, li{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    letter-spacing: 0.4px;
+    margin: 15px 0;
+    opacity: 0.6;
+  }
+}

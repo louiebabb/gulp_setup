@@ -6,6 +6,7 @@
   "dependencies": {
     "gulp-clean": "^0.3.2",
     "gulp-concat": "^2.6.1",
+    "gulp-copy": "^1.0.1",
     "gulp-cssnano": "^2.1.2",
     "gulp-file-include": "^1.2.0",
     "gulp-livereload": "^3.8.1",
